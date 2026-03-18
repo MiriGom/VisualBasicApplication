@@ -22,10 +22,40 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        btnCheck = New Button()
+        txtTemperature = New TextBox()
+        SuspendLayout()
+        ' 
+        ' btnCheck
+        ' 
+        btnCheck.Location = New Point(45, 40)
+        btnCheck.Name = "btnCheck"
+        btnCheck.Size = New Size(191, 29)
+        btnCheck.TabIndex = 0
+        btnCheck.Text = "Check Temperature"
+        btnCheck.UseVisualStyleBackColor = True
+        ' 
+        ' txtTemperature
+        ' 
+        txtTemperature.Location = New Point(242, 42)
+        txtTemperature.Name = "txtTemperature"
+        txtTemperature.Size = New Size(125, 27)
+        txtTemperature.TabIndex = 1
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(txtTemperature)
+        Controls.Add(btnCheck)
+        Name = "Form1"
         Text = "Form1"
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
+
+    Friend WithEvents btnCheck As Button
+    Friend WithEvents txtTemperature As TextBox
 
 End Class
