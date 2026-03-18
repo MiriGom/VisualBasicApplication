@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("VisualBasicApp"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+354d499eb2050bfcd1a3989b7f1f5a7b66bef26d"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54e389ab3c5fcd5815bf2e1c5f44813e012e736c"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("VisualBasicApp"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("VisualBasicApp"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

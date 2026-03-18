@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         btnCheck = New Button()
         txtTemperature = New TextBox()
+        btnCountingApp = New Button()
         SuspendLayout()
         ' 
         ' btnCheck
@@ -32,7 +33,7 @@ Partial Class Form1
         btnCheck.Name = "btnCheck"
         btnCheck.Size = New Size(191, 29)
         btnCheck.TabIndex = 0
-        btnCheck.Text = "Check Temperature"
+        btnCheck.Text = "Check Temperature App"
         btnCheck.UseVisualStyleBackColor = True
         ' 
         ' txtTemperature
@@ -42,11 +43,21 @@ Partial Class Form1
         txtTemperature.Size = New Size(125, 27)
         txtTemperature.TabIndex = 1
         ' 
+        ' btnCountingApp
+        ' 
+        btnCountingApp.Location = New Point(45, 108)
+        btnCountingApp.Name = "btnCountingApp"
+        btnCountingApp.Size = New Size(201, 77)
+        btnCountingApp.TabIndex = 2
+        btnCountingApp.Text = "Count Up Odd or Even"
+        btnCountingApp.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnCountingApp)
         Controls.Add(txtTemperature)
         Controls.Add(btnCheck)
         Name = "Form1"
@@ -57,5 +68,6 @@ Partial Class Form1
 
     Friend WithEvents btnCheck As Button
     Friend WithEvents txtTemperature As TextBox
+    Friend WithEvents btnCountingApp As Button
 
 End Class
