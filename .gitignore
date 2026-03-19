@@ -3,23 +3,17 @@
 bin/
 obj/
 
-# User-specific files
+# User files
 *.user
 *.suo
-*.userosscache
-*.sln.docstates
 
-# Build results
+# Build outputs
 *.exe
 *.dll
-
-# Packages
-*.nupkg
-*.snupkg
 
 # Logs
 *.log
 
-# Others
+# Temp files
 *.tmp
 *.vsidx
