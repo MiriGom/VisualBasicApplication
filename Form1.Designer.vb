@@ -25,6 +25,7 @@ Partial Class Form1
         btnCheck = New Button()
         txtTemperature = New TextBox()
         btnCountingApp = New Button()
+        btnDoWhile = New Button()
         SuspendLayout()
         ' 
         ' btnCheck
@@ -52,11 +53,21 @@ Partial Class Form1
         btnCountingApp.Text = "Count Up Odd or Even"
         btnCountingApp.UseVisualStyleBackColor = True
         ' 
+        ' btnDoWhile
+        ' 
+        btnDoWhile.Location = New Point(45, 216)
+        btnDoWhile.Name = "btnDoWhile"
+        btnDoWhile.Size = New Size(94, 29)
+        btnDoWhile.TabIndex = 3
+        btnDoWhile.Text = "Do While"
+        btnDoWhile.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnDoWhile)
         Controls.Add(btnCountingApp)
         Controls.Add(txtTemperature)
         Controls.Add(btnCheck)
@@ -69,5 +80,6 @@ Partial Class Form1
     Friend WithEvents btnCheck As Button
     Friend WithEvents txtTemperature As TextBox
     Friend WithEvents btnCountingApp As Button
+    Friend WithEvents btnDoWhile As Button
 
 End Class

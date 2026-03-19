@@ -51,4 +51,38 @@
 
 
     End Sub
+
+    Private Sub btnDoWhile_Click(sender As Object, e As EventArgs) Handles btnDoWhile.Click
+        Dim iCount As Integer
+        Dim stName As String
+
+        Do While stName <> "Miriam"
+            stName = InputBox("What is your name?")
+        Loop
+
+        Do While True = True
+            stName = InputBox("What is your name?")
+            If stName = "Miriam" Then
+                Exit Do
+            End If
+            iCount += 1
+        Loop
+
+        Do
+            MsgBox(iCount)
+            iCount += 1
+        Loop While iCount < 10
+
+
+        Do Until iCount < 10
+            MsgBox(iCount)
+            iCount += 1
+        Loop
+
+
+        Do
+            MsgBox(iCount)
+            iCount += 1
+        Loop Until iCount < 10
+    End Sub
 End Class
