@@ -26,6 +26,7 @@ Partial Class Form1
         txtTemperature = New TextBox()
         btnCountingApp = New Button()
         btnDoWhile = New Button()
+        btnListOfFruit = New Button()
         SuspendLayout()
         ' 
         ' btnCheck
@@ -55,18 +56,28 @@ Partial Class Form1
         ' 
         ' btnDoWhile
         ' 
-        btnDoWhile.Location = New Point(45, 216)
+        btnDoWhile.Location = New Point(45, 212)
         btnDoWhile.Name = "btnDoWhile"
         btnDoWhile.Size = New Size(94, 29)
         btnDoWhile.TabIndex = 3
         btnDoWhile.Text = "Do While"
         btnDoWhile.UseVisualStyleBackColor = True
         ' 
+        ' btnListOfFruit
+        ' 
+        btnListOfFruit.Location = New Point(54, 267)
+        btnListOfFruit.Name = "btnListOfFruit"
+        btnListOfFruit.Size = New Size(94, 29)
+        btnListOfFruit.TabIndex = 4
+        btnListOfFruit.Text = "Grocieries"
+        btnListOfFruit.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnListOfFruit)
         Controls.Add(btnDoWhile)
         Controls.Add(btnCountingApp)
         Controls.Add(txtTemperature)
@@ -81,5 +92,6 @@ Partial Class Form1
     Friend WithEvents txtTemperature As TextBox
     Friend WithEvents btnCountingApp As Button
     Friend WithEvents btnDoWhile As Button
+    Friend WithEvents btnListOfFruit As Button
 
 End Class

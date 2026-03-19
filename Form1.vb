@@ -85,4 +85,21 @@
             iCount += 1
         Loop Until iCount < 10
     End Sub
+
+    Private Sub btnListOfFruit_Click(sender As Object, e As EventArgs) Handles btnListOfFruit.Click
+        Dim astFruit(4) As String
+
+        Dim i As Integer
+
+        astFruit(0) = "Apple"
+        astFruit(1) = "Banana"
+        astFruit(2) = "Cherry"
+        astFruit(3) = "Pineapple"
+        astFruit(4) = "Mango"
+
+        For i = 0 To 4
+            MsgBox(astFruit(i))
+        Next
+
+    End Sub
 End Class
